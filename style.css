@@ -1,0 +1,90 @@
+*{
+    position: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    padding: 10rem 20rem;
+}
+.general .boxAll .top{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+.general .boxAll .top .box{
+    background-color: rgba(242,242,242,255);
+    margin-top: 30px;
+    width: 32%;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+   
+ }
+ .general .boxAll .top .box img{
+    width: 100%;
+ }
+ .general .boxAll .top .box h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Jost', sans-serif;
+ }
+
+ .general .boxAll .top .box p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Jost', sans-serif;
+  
+ 
+ }
+ .general .boxAll .top .box i{
+color: #2C3E50;
+
+ }
+ .general .boxAll .top .box .bottomSection{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+ }
+ 
+ .general .boxAll .top .box .bottomSection .i{
+   padding-top: 25px;
+ }
+ .general .boxAll .top .box .iconsOnImage{
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    padding: 15px 5px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 12px;
+ }
+ .general .boxAll .top .box .iconsOnImage i{
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+ }
+ .boxAll .h2First{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    position: relative;
+ }
+ .boxAll .h2First::before{
+    content: 'Latest';
+    position: absolute;
+    bottom: -69px;
+    right: 28%;
+    margin-top: 12rem;
+    z-index: -1;
+    color: #f7f7f7;
+    font-size: 200px;
+    font-weight: 700;
+    
+ }
